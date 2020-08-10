@@ -24,7 +24,7 @@ func init() {
 		dbType, dbName, user, password, host, tablePrefix string
 	)
 
-	sec, err := setting.Cfg.GetSection("database")
+	sec, err := util.Cfg.GetSection("database")
 	if err != nil {
 		log.Fatal(2, "Fail to get section 'database': %v", err)
 	}
