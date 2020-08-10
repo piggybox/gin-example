@@ -4,8 +4,6 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/gin-gonic/gin"
-
 	"gin-example/routers"
 	"gin-example/util"
 )
